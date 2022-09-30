@@ -1,0 +1,114 @@
+body{
+  font-family: Montserrat;
+}
+
+#title{
+  background-color: #ff4c68;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  margin: 1.2rem 0;
+  padding: 2rem;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+}
+h1{
+  font-family: Montserrat;
+  font-weight: 700;
+  size: 4rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+h3{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+ padding: 3% 15%
+}
+
+.rotation{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+  }
+  @media (max-width: 993px) {
+    .rotation{
+      position: static;
+      transform: rotate(0);
+      margin: 1rem;
+    }
+    .col-lg-6,
+    .text-white{
+      text-align: center;
+    }
+    .btn{
+      margin: 0.4rem;
+    }
+    }
+.logo{
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.icon{
+  font-size: 2rem;
+}
+.bi:hover {
+color: #ff4c68;
+}
+#features{
+padding: 7% 15%;
+}
+
+.gray-opacity{
+  color: gray;
+}
+.bi{
+  color: #ef8172;
+  margin: 0 0.5rem;
+}
+.push-img{
+  position: relative;
+}
+#testimonials{
+  background-color:  #ef8172;
+  text-align: center;
+  color: white;
+}
+#features{
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.container-fluid{
+  position: relative;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.img-testimonial{
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.25rem;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 1.25rem 1.25rem 3rem;
+}
+.black{
+ color: #000;
+}
